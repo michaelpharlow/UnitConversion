@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="conversion-app">
+            <div id="header-card">
+                <label for="unit-el">
+                    <h1>Metric/Imperial Unit Conversion</h1>
+                </label>
+                <p><input type="number" id="unit-el" min="0" max="99999" size="1" onkeypress="this.style.width = ((this.value.length) + 2) + 'ch'"></p>
+                <div id="inputToolTip">Please enter a number between 1 and 99999</div>
+                <button id="convert-btn">Convert</button>
+            </div>
+            <div id="conversion-card">
+                <div class="output-card">
+                    <h2>Length (Meter/Feet)</h2>
+                    <p id="length-el"></p>
+                </div>
+                <div class="output-card">
+                    <h2>Volume (Liters/Gallons)</h2>
+                    <p id="volume-el"></p>
+                </div>
+                <div class="output-card">
+                    <h2>Mass (Kilograms/Pounds)</h2>
+                    <p id="mass-el"></p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

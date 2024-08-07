@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#conversion-app {
+    width: 540px;
+    margin: auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input {
+    background: none;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    min-width: 10px;
+    width: 100px;
+    max-width: 200px;
+    border: 1px solid #B295FF;
+    border-radius: 10px;
+}
+
+#inputToolTip {
+    font-size: .7em;
+    margin: -10px auto 10px;
+    display: none;
+}
+
+#header-card {
+    background: #6943ff;
+    color: #FFF;
+    padding: 30px;
+    
+}
+
+#conversion-card {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+#convert-btn {
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.output-card {
+    padding: 5px;
+    background: #fff;
+    margin: 20px;
+}
+
+.output-card h2 {
+    color: #5a537b;
+}
